@@ -22,13 +22,13 @@ public class Conditionals {
         }
 
         // Switch/Case
-        int weekNumber = 21;
+        int weekNumber = 2;
         switch (weekNumber) {
             case 1:
                 System.out.println("Monday");
                 break;
             case 2:
-                System.out.println("Tueday");
+                System.out.println("Tuesday");
                 break;
             case 3:
                 System.out.println("Wednesday");
