@@ -2,14 +2,16 @@ package abstracts;
 
 abstract class Sounds {
 
-    // abstract method with no implementation
+    // method without implementation (abstract)
     abstract void makeSound();
 
+    // method with implementation (concrete)
     void beepSound() {
         System.out.println("Beep!");
     }
 }
 
+// use 'extends' keyword
 public class UsingAbstract extends Sounds {
     public static void main(String[] args) {
         UsingAbstract absOne = new UsingAbstract();
@@ -18,7 +20,7 @@ public class UsingAbstract extends Sounds {
         absOne.beepSound();
     }
 
-    // implement inherited abstract method
+    // abstract method implemented
     void makeSound() {
         System.out.println("Bang!");
     }
