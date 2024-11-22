@@ -1,13 +1,14 @@
 package finalkeyword;
 
-// cannot extend class
+// cannot extend a class with the final keyword
 final class A {
 
-    // cannot change value
-    final int value = 100;
+}
 
-    // cannot override method
-    void simpleMethod() {
+class finalMethod{
+
+    // cannot override method with the final keyword
+    final void simpleMethod() {
         System.out.println("Hello");
     }
 }
