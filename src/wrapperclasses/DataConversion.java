@@ -8,7 +8,7 @@ public class DataConversion {
         int intVal = 10;
 
         // convert primitive types to objects using their respective wrapper class
-        // also used ffor conversion
+        // also used for conversion
 
         int intConvert = Integer.parseInt(intValue); // convert to integer
         System.out.println(intConvert);
